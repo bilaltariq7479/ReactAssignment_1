@@ -7,6 +7,7 @@ const Header = () => {
       <header>
         <div className="logo">
             <img src={Logo} alt="" />
+            <input type="text" placeholder="" />
         </div>
         <div className="nav_links">
           <ul>
