@@ -1,5 +1,5 @@
 import React from "react";
-import aboutimg1 from '../../assets/aboutimg1.jpg'
+import aboutimg1 from "../../assets/aboutimg1.jpg";
 const Aboutus = () => {
   return (
     <div className="aboutus_page">
@@ -25,8 +25,10 @@ const Aboutus = () => {
           </div>
           <div className="about_imgs">
             <div className="about_img_bg">
-                <div className="aboutimg1div"></div>
-                <div className="aboutimg2div"></div>
+              <div className="aboutimg1div">
+                <img src={aboutimg1} alt="" />
+              </div>
+              <div className="aboutimg2div"></div>
             </div>
           </div>
         </div>

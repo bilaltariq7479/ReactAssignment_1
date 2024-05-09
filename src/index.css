@@ -110,7 +110,8 @@ footer .inner_footer{
   background: #22B286;
   border: none;
   outline: none;
-  color: #fff;;
+  color: #fff;
+  margin-top: 10px;
 }
 .about_imgs{
   padding: 80px 120px;
@@ -119,4 +120,9 @@ footer .inner_footer{
   height: 474px;
   width: 474px;
   background: #F2F2F2;
+}
+.aboutimg1div img{
+  width: 376px;
+  height: 246px;
+  border-radius: 10px;
 }
