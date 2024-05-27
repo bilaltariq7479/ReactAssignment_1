@@ -1,7 +1,9 @@
 import React from "react";
 import aboutimg1 from "../../assets/aboutimg1.jpg";
+import { FaLongArrowAltRight } from "react-icons/fa";
 const Aboutus = () => {
   return (
+    <>
     <div className="aboutus_page">
       <div className="page_width">
         <div className="banner_inner">
@@ -21,7 +23,7 @@ const Aboutus = () => {
               the area of UI/UX Design, by strengthening up your skills, for
               your golden future
             </h4>
-            <button>Join us</button>
+            <button>Join us <FaLongArrowAltRight /> </button>
           </div>
           <div className="about_imgs">
             <div className="about_img_bg">
@@ -34,6 +36,8 @@ const Aboutus = () => {
         </div>
       </div>
     </div>
+    
+    </>
   );
 };
 
